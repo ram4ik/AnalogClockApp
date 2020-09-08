@@ -11,6 +11,8 @@
 		1D33599625081D5A005B35F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33599525081D5A005B35F6 /* ContentView.swift */; };
 		1D33599825081D5C005B35F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D33599725081D5C005B35F6 /* Assets.xcassets */; };
 		1D33599B25081D5C005B35F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D33599A25081D5C005B35F6 /* Preview Assets.xcassets */; };
+		1D3359A325081DB7005B35F6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3359A225081DB7005B35F6 /* Home.swift */; };
+		1D3359A5250822D7005B35F6 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3359A4250822D7005B35F6 /* Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1D33599725081D5C005B35F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D33599A25081D5C005B35F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D33599C25081D5C005B35F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3359A225081DB7005B35F6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1D3359A4250822D7005B35F6 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				1D33599725081D5C005B35F6 /* Assets.xcassets */,
 				1D33599C25081D5C005B35F6 /* Info.plist */,
 				1D33599925081D5C005B35F6 /* Preview Content */,
+				1D3359A225081DB7005B35F6 /* Home.swift */,
+				1D3359A4250822D7005B35F6 /* Time.swift */,
 			);
 			path = AnalogClockApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3359A5250822D7005B35F6 /* Time.swift in Sources */,
 				1D33599625081D5A005B35F6 /* ContentView.swift in Sources */,
+				1D3359A325081DB7005B35F6 /* Home.swift in Sources */,
 				1D33599425081D5A005B35F6 /* AnalogClockAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

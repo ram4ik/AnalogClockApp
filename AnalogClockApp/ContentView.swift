@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isDark = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView {
+            
+            Home(isDark: $isDark)
+                .navigationBarHidden(true)
+                .preferredColorScheme(isDark ? .dark : .light)
+        }
     }
 }
 
